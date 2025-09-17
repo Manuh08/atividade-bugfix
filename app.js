@@ -1,9 +1,8 @@
 // app.js
 // BUG 1: função soma está errada
 function soma(a, b) {
-    return a - b; // ❌ deveria ser a + b
+    return a + b; // ✅ corrigido
 }
-
 // BUG 2: função login está sempre retornando false
 function login(usuario, senha) {
     if (usuario === "admin" && senha === "1234") {
