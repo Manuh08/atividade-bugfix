@@ -7,7 +7,7 @@ function soma(a, b) {
 // BUG 2: função login está sempre retornando false
 function login(usuario, senha) {
     if (usuario === "admin" && senha === "1234") {
-        return false; // ❌ deveria ser true
+        return true; // ✅ corrigido
     }
     return false;
 }
