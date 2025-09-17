@@ -14,7 +14,7 @@ function login(usuario, senha) {
 
 // BUG 3: função que retorna mensagem não funciona
 function mensagem(nome) {
-    return "Olá" + nome; // ❌ faltou espaço
+    return "Olá " + nome; // ✅ corrigido, adiciona espaço
 }
 
 // Testando
